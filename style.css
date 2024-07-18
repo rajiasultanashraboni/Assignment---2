@@ -235,10 +235,18 @@ main{
     font-weight: 400;
 }
 
+.card-image{
+    text-align: center;
+
+}
+
 .card-image img{
+    padding: 8px 8px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
+
 }
 
 .card-desc h3{
@@ -247,6 +255,7 @@ main{
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 10px;
     
 }
 
@@ -263,11 +272,6 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-}
-
-.card-image{
-    padding: 0 35px;
-    text-align: center;
 }
 
 .card-desc{
@@ -362,6 +366,10 @@ main{
     .card-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+    }
+
+    .card-image{
+          padding: 0 35px;
     }
 
     .card-image img {
