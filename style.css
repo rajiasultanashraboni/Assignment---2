@@ -15,6 +15,12 @@ body{
 
 /* navbar section starts here */
 
+.nav-banner-section{
+    width: 100%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+   
+}
+
 .navbar{
     width: 80%;
     margin: 0 auto;
@@ -22,6 +28,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
+    
 }
 
 .nav-item{
@@ -69,6 +76,7 @@ body{
     margin: 90px auto;
     display: flex; 
     justify-content: space-between;
+    
     
 }
 
@@ -198,6 +206,77 @@ body{
 
 /* banner section ends here */
 
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* change habit section starts here */
+
+
+.change-habit-content{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.change-habit-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.change-habit-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.card-image img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card-desc h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.card-desc p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.card-image{
+    padding: 0 35px;
+    text-align: center;
+}
+
+.card-desc{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* change habit section ends here */
+
 
 
 
@@ -264,6 +343,38 @@ body{
 
     .banner-card-2 button {
         margin-left: 10px;
+    }
+
+    /* responsive change habit section */
+
+    .change-habit-content {
+        width: 80%;
+    }
+
+    .change-habit-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .change-habit-content p {
+        font-size: 0.75rem;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .card-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .card-desc h3 {
+        font-size: 0.9rem;
+    }
+
+    .card-desc p {
+        font-size: 0.75rem;
     }
 
    
