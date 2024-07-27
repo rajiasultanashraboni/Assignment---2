@@ -335,7 +335,8 @@ main{
 .run-mile-image img{
     width: 100%;
     height:100%;
-    object-fit: cover;
+    object-fit: none;
+    object-position: 66% 30%;
     border-radius: 18px;
     
 }
@@ -421,6 +422,7 @@ main{
 
     .change-habit-content p {
         font-size: 0.75rem;
+
     }
 
     .card-container {
@@ -443,6 +445,45 @@ main{
 
     .card-desc p {
         font-size: 0.75rem;
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    /* Run extra mile is responsive here */
+
+    .run-extra-mile-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+    .run-mile-content, .run-mile-image {
+        padding: 20px;
+    }
+
+    .run-mile-content h1 {
+        font-size: 2rem;
+    }
+
+    .run-mile-content p {
+        font-size: 0.9rem;
+    }
+
+    .run-mile-content button {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+        width: 100%;
+    }
+
+    .run-mile-image img{
+
+        object-fit: cover;
+        
+        
     }
 
    
