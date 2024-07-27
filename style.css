@@ -139,6 +139,11 @@ body{
     position: relative;
 }
 
+.banner-image img{
+    width: 349px;
+    height: 500px;
+}
+
 .banner-card-1{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -457,9 +462,13 @@ main{
         height: auto;
     }
 
+    /* shared styles starts*/
+
     .hide-in-small-device{
         display: none;
     }
+
+    /* shared styles end */
 
     .run-mile-content, .run-mile-image {
         padding: 20px;
