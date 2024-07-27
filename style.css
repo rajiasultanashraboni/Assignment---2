@@ -17,8 +17,7 @@ body{
 
 .nav-banner-section{
     width: 100%;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-   
+    background: linear-gradient(180.00deg, rgb(59, 51, 51),rgba(56, 44, 44, 0) 100%);
 }
 
 .navbar{
@@ -211,12 +210,14 @@ body{
 
 /* banner section ends here */
 
-main{
+
+
+/* change habit section starts here */
+
+.change-habit-container{
     width: 80%;
     margin: 0 auto;
 }
-
-/* change habit section starts here */
 
 
 .change-habit-content{
@@ -348,7 +349,39 @@ main{
 /* Run extra mile is ends here */
 
 
+/* BMI calculator design starts here */
+.bmi-calculator-content{
+    margin-top: 80px;
+    margin-left: 18%;
+    margin-bottom: 90px;
 
+}
+
+.bmi-calculator-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.bmi-calculator-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.calculator-chart-and-calculator-bmi-container{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    height: 400px;
+    border: 2px solid red;
+  
+    
+}
+/* BMI calculator design ends here */
 
 
 
