@@ -386,7 +386,7 @@ body{
 }
 
 .calculator-chart-and-calculator-bmi-container{
-    width: 100%;
+    max-width: 100%;
     background: rgb(34, 34, 34);
     height: auto;
     display: flex;
@@ -543,6 +543,7 @@ input[type="text"] {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 10px;
+    margin-bottom: 90px;
 
 }
 
@@ -551,6 +552,8 @@ input[type="text"] {
     height: 250px;
     border-radius: 18px;
     object-fit: cover;
+    
+
 }
 
 .trainer-parent{
@@ -578,15 +581,82 @@ input[type="text"] {
 /* meet our team design is ends here */
 
 
+/* footer container design starts here */
+.footer{
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.1);  
+ 
+}
+.footer-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px 0px;
+    
+}
+
+.footer-content{
+    margin-bottom: 90px;
+}
+
+.footer-content h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-content p{
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.get-started{
+    margin-left: 50%;
+}
+.get-started h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.get-started ul li{
+    list-style: none;
+    line-height: 170%;
+    
+}
+.get-started li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 120%;
+}
 
 
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   
+}
 
-
-
-
-
-
-
+.reserved{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* footer container design ends here */
 
 
 
@@ -789,6 +859,27 @@ input[type="text"]{
     grid-template-columns: 1fr;
 }
 
+/* footer section starts here */
+.footer-container{
+    grid-template-columns: 1fr;
+    
+    
+}
 
+.footer-content{
+    margin-bottom: 30px;
+}
+
+.get-started{
+    margin-left: 5%;
+}
+
+.get-started{
+    margin-bottom: 30px;
+}
+
+.footer-container{
+    padding-top: 20px;
+}
    
 }
