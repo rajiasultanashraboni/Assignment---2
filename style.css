@@ -392,6 +392,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    padding-bottom: 20px;
     
 }
 
@@ -549,6 +550,7 @@ input[type="text"] {
     width:100%;
     height: 250px;
     border-radius: 18px;
+    object-fit: cover;
 }
 
 .trainer-parent{
@@ -774,6 +776,11 @@ input[type="text"]{
 #Select-an-activity-factor{
     width: 83%;
     
+}
+
+.calculator{
+    width: 40%;
+
 }
 
 /* meet our team is responsive here */
