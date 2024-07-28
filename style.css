@@ -16,7 +16,8 @@ body{
 /* navbar section starts here */
 
 .nav-banner-section{
-    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
     background: linear-gradient(180.00deg, rgb(59, 51, 51),rgba(56, 44, 44, 0) 100%);
 }
 
@@ -75,6 +76,7 @@ body{
     margin: 90px auto;
     display: flex; 
     justify-content: space-between;
+    
     
     
 }
@@ -139,8 +141,8 @@ body{
 }
 
 .banner-image img{
-    width: 349px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .banner-card-1{
@@ -153,7 +155,7 @@ body{
     padding: 5px 15px;
     position: absolute;
     top: 25%;
-    left: 65%;
+    left: 60%;
 }
 
 .banner-card-1 h1{
@@ -180,7 +182,7 @@ body{
     width: max-content;
     padding: 5px 15px;
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 8%;
    
 }
@@ -208,6 +210,15 @@ body{
     font-weight: 400;
 }
 
+.banner-button-1{
+    padding: 12px 20px;
+    font-size: 0.8rem;
+}
+.banner-button-2{
+    padding: 12px 20px;
+    font-size: 0.8rem;
+}
+
 /* banner section ends here */
 
 
@@ -221,7 +232,7 @@ body{
 
 
 .change-habit-content{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -249,8 +260,8 @@ body{
 .card-image img{
     padding: 8px 8px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 60%;
+    height: 60%;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
 
 }
@@ -377,7 +388,7 @@ body{
 .calculator-chart-and-calculator-bmi-container{
     width: 100%;
     background: rgb(34, 34, 34);
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -421,8 +432,8 @@ table td{
 
 .calculate-bmi{
     width: 50%;
-    /* padding-right: 10%; */
-}
+
+} 
 
 .calculate-bmi h1{
     color: rgb(255, 255, 255);
@@ -434,19 +445,16 @@ table td{
 
 .calculate-bmi p{
     color: rgba(255, 255, 255, 0.5);
-    width: 577px;
+    width: 80%;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
-form{
-    width: 577px;
-}
 
 input[type="text"] {
-    width: 250px;
+    width: 40%;
     color: rgba(255, 255, 255, 0.6) !important;
     font-family: Inter;
     font-size: 1rem;
@@ -459,7 +467,7 @@ input[type="text"] {
 }
 
 #sex{
-    width: 250px;
+    width: 40%;
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;
     font-size: 1rem;
@@ -472,7 +480,7 @@ input[type="text"] {
 
 
 #Select-an-activity-factor{
-    width: 512px;
+    width: 83%;
     padding: 10px 15px;
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;
@@ -486,7 +494,7 @@ input[type="text"] {
 }
 
 .calculator{
-    width: 200px;
+    width: 30%;
     padding: 10px 12px;
     border: none;
     border-radius: 42px;
@@ -497,6 +505,75 @@ input[type="text"] {
     font-weight: 600;
 }
 /* BMI calculator design ends here */
+
+
+/* meet our team design is starts here */
+.meet-team-content{
+    margin-top: 90px;
+    text-align: center;
+    
+    
+}
+
+.meet-team-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.meet-team-content p{
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.meet-team-image-container{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.meet-team-image-container img{
+    width:100%;
+    height: 250px;
+    border-radius: 18px;
+}
+
+.trainer-parent{
+    position: relative;
+}
+.trainer-child{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.trainer-child h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    
+}
+
+.trainer-child p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+}
+/* meet our team design is ends here */
 
 
 
@@ -514,6 +591,7 @@ input[type="text"] {
 
 /* Responsive design starts here */
 @media screen and (max-width:576px) {
+   
     .navbar h1{
         font-size: 1.5rem;
         
@@ -562,18 +640,7 @@ input[type="text"] {
     .banner-card-2 button {
         margin-left: 10px;
     }
-    .banner-button-1{
-       
-        font-size: 0.8rem;
-        padding: 8px 15px;
-        
-    }
-    .banner-button-2{
-       
-        font-size: 0.8rem;
-        padding: 8px 15px;
-        
-    }
+    
     
 
     /* responsive change habit section */
@@ -601,8 +668,8 @@ input[type="text"] {
     }
 
     .card-image img {
-        width: 120px;
-        height: 120px;
+        width: 50%;
+        height: 50%;
     }
 
     .card-desc h3 {
@@ -611,7 +678,7 @@ input[type="text"] {
 
     .card-desc p {
         font-size: 0.75rem;
-        width: 180px;
+        width: 60%;
         margin: 0 auto;
     }
 
@@ -649,7 +716,8 @@ input[type="text"] {
     }
 
     .run-mile-content button {
-        width: 100%;}
+        width: 100%;
+    }
 
 /* BMI calculator design responsive here */
 
@@ -659,7 +727,7 @@ input[type="text"] {
 }
 
 .bmi-calculator-content p{
-    width: 350px;
+    width: 80%;
 }
 
 .calculator-chart-and-calculator-bmi-container {
@@ -685,28 +753,34 @@ input[type="text"] {
 
 .calculate-bmi p{
     font-size: 1rem;
-    width: 360px;
+    width: 80%;
     
 }
 
+
 input[type="text"]{
-    width: 180px;
+    width: 40%;
     
     
     
 }
 
 #sex{
-    width: 180px;
+    width: 40%;
     
     
 }
 
 #Select-an-activity-factor{
-    width: 378px;
+    width: 83%;
     
 }
 
+/* meet our team is responsive here */
+
+.meet-team-image-container{
+    grid-template-columns: 1fr;
+}
 
 
    
