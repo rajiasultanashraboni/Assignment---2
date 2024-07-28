@@ -616,45 +616,40 @@ input[type="text"] {
     }
 
     /* Run extra mile is responsive here */
+     /* shared styles starts*/
 
-    .run-extra-mile-container {
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-    }
-
-    /* shared styles starts*/
-
-    .hide-in-small-device{
+     .hide-in-small-device{
         display: none;
     }
 
     /* shared styles end */
 
+    .run-extra-mile-container {
+        flex-direction: column;
+        width: 90%; 
+        margin-top: 20px; 
+    }
+
     .run-mile-content, .run-mile-image {
-        padding: 20px;
+        width: 100%; 
+        padding: 20px; 
     }
 
     .run-mile-content h1 {
-        font-size: 2rem;
+        font-size: 1.5rem; 
     }
 
     .run-mile-content p {
-        font-size: 0.9rem;
+        font-size: 0.9rem; 
+    }
+
+    .run-mile-image img {
+        height: auto; 
+        object-fit: cover; 
     }
 
     .run-mile-content button {
-        font-size: 0.9rem;
-        padding: 10px 16px;
-        width: 100%;
-    }
-
-    .run-mile-image img{
-
-        object-fit: cover;
-        
-        
-    }
+        width: 100%;}
 
 /* BMI calculator design responsive here */
 
