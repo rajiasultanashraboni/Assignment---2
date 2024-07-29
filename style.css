@@ -552,6 +552,7 @@ input[type="text"] {
     height: 250px;
     border-radius: 18px;
     object-fit: cover;
+    filter: brightness(70%);
     
 
 }
@@ -579,6 +580,15 @@ input[type="text"] {
     font-size: 0.8rem;
 }
 /* meet our team design is ends here */
+
+/* Extra section design is starts here */
+.additional-section-container{
+    
+
+    }
+
+    
+/* Extra section design is ends here */
 
 
 /* footer container design starts here */
