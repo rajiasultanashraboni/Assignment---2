@@ -469,7 +469,7 @@ input[type="text"] {
 
 #sex{
     width: 40%;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(161, 151, 151, 0.6);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -477,13 +477,14 @@ input[type="text"] {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     padding: 10px 15px;
+    border-right: 20px solid transparent;
 }
 
 
 #Select-an-activity-factor{
     width: 83%;
     padding: 10px 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(161, 151, 151, 0.6);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -491,6 +492,7 @@ input[type="text"] {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     margin-bottom: 20px;
+    border-right: 20px solid transparent;
 
 }
 
