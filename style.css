@@ -611,7 +611,7 @@ input[type="text"] {
 
 .cards-image img{
     width: 100%;
-    height: 250px;
+    /* height: 350px; */
     object-fit: cover;
 }
 
