@@ -597,7 +597,8 @@ input[type="text"] {
     margin-bottom: 50px;
 }
 .additional-section-content h1{
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
+    color: orangered;
     font-family: Inter;
     font-size: 2.5rem;
     font-weight: 900;
@@ -626,8 +627,8 @@ input[type="text"] {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     margin-bottom: 10px;
-    text-align: justify;
-    word-spacing: 2px;
+    text-align: left;
+    /* word-spacing: 2px; */
     font-family: Inter;
 }
 
